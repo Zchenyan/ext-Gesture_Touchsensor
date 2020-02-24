@@ -1,0 +1,32 @@
+{
+	"RX": {
+		"menu": [["2", "2"], ["3", "3"], ["4", "4"],["5", "5"]],
+		"default_GestureTouchSensorInitSSR":"2"
+	},
+	"TX": {
+		"menu":[["2", "2"], ["3", "3"], ["4", "4"],["5", "5"]],
+		"default_GestureTouchSensorInitSSR": "3"
+	},
+	"SSR": {
+		"menu": [["softwareSerial1", "softwareSerial1"], ["softwareSerial2", "softwareSerial2"]],
+		"default_GestureTouchSensorInitSSR":"softwareSerial1"
+	},
+	"SR": {
+		"menu": [["Serial", "Serial"]],
+		"default_GestureTouchSensorInitSR":"Serial"
+	},
+	"SRX": {
+		"menu": [["0", "0"]],
+		"default_GestureTouchSensorInitSR":"0"
+	},
+	"STX": {
+		"menu":[["1", "1"]],
+		"default_GestureTouchSensorInitSR": "1"
+	},
+    "RSLT":{
+		"menu":[["BACK", "DFGT_EVT_BACK"],["FORWARD", "DFGT_EVT_FORWARD"],["RIGHT", "DFGT_EVT_RIGHT"],["LEFT", "DFGT_EVT_LEFT"],["PULLUP", "DFGT_EVT_PULLUP"],["PULLDOWN", "DFGT_EVT_PULLDOWN"],["PULLREMOVE", "DFGT_EVT_PULLREMOVE"],["TOUCH1", "DFGT_EVT_TOUCH1"],["TOUCH2", "DFGT_EVT_TOUCH2"],["TOUCH3", "DFGT_EVT_TOUCH3"],["TOUCH4", "DFGT_EVT_TOUCH4"],["TOUCH5", "DFGT_EVT_TOUCH5"]],
+		"default_GestureTouchSensorRslt": "FORWARD"
+
+	}
+
+}

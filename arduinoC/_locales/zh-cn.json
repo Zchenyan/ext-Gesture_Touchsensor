@@ -1,0 +1,25 @@
+{
+    "GestureTouchSensor.GestureTouchSensorInitSSR|block": "手势传感器 初始化 [SSR] RX(蓝)[RX] TX(绿)[TX]",
+    "GestureTouchSensor.GestureTouchSensorInitSR|block": "手势传感器 初始化 [SR] RX(蓝)[SRX] TX(绿)[STX]",
+    "GestureTouchSensor.GestureTouchSensorRead|block": "手势传感器 读取一次数据存入结果",
+    "GestureTouchSensor.GestureTouchSensorRslt|block": "手势传感器结果等于 [RSLT]?",
+    "GestureTouchSensor.GestureTouchSensoreSetDist|block": "手势传感器 检测距离为[DST]厘米",
+    "GestureTouchSensor.SSR.softwareSerial1|menu": "软串口1",
+    "GestureTouchSensor.SSR.softwareSerial2|menu": "软串口2",
+    "GestureTouchSensor.SR.Serial1|menu": "硬串口1",
+    "GestureTouchSensor.SR.Serial2|menu": "硬串口2",
+    "GestureTouchSensor.SR.Serial|menu": "硬串口",
+    "GestureTouchSensor.RSLT.FORWARD|menu": "向前",
+    "GestureTouchSensor.RSLT.BACK|menu": "向后",
+    "GestureTouchSensor.RSLT.RIGHT|menu": "向左",
+    "GestureTouchSensor.RSLT.LEFT|menu": "向右",
+    "GestureTouchSensor.RSLT.PULLUP|menu": "上拉",
+    "GestureTouchSensor.RSLT.PULLDOWN|menu": "下压",
+    "GestureTouchSensor.RSLT.PULLREMOVE|menu": "松开",
+    "GestureTouchSensor.RSLT.TOUCH1|menu": "触摸1",
+    "GestureTouchSensor.RSLT.TOUCH2|menu": "触摸2",
+    "GestureTouchSensor.RSLT.TOUCH3|menu": "触摸3",
+    "GestureTouchSensor.RSLT.TOUCH4|menu": "触摸4",
+    "GestureTouchSensor.RSLT.TOUCH5|menu": "触摸5"
+
+}
