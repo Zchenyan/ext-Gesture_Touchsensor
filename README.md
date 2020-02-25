@@ -44,3 +44,4 @@ MCU                | JavaScript    | Arduino   | MicroPython    | Remarks
 ------------------ | :----------: | :----------: | :---------: | -----
 micro:bit        |             |       √       |             | 
 mpython        |             |        √      |             | 
+arduino uno    |             |        √      |             | 

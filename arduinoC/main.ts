@@ -13,7 +13,7 @@ namespace GestureTouchSensor {
         Generator.addInclude("GestureTouchSensorInitIncludeSoftwareSerial", "#include <SoftwareSerial.h>");
 
         Generator.addObject(`GestureTouchSensorInitObjectSoftwareSerial${ssr}`,"SoftwareSerial", `${ssr}(${rx}, ${tx});`);
-        Generator.addObject("GestureTouchSensorInitObjectDFRobot_Gesture_Touch","DFRobot_Gesture_Touch", `DFGT(&${ssr});`);
+        Generator.addObject(`GestureTouchSensorInitObjectDFRobot_Gesture_Touch${ssr}`,"DFRobot_Gesture_Touch", `DFGT(&${ssr});`);
         Generator.addObject("GestureTouchSensorInitObjectDFRobot_Gesture_Touchrslt","int8_t", `GestureTouchSensorRead_rslt=0;`);
 
         Generator.addSetup(`GestureTouchSensorInitSetupmySerial${ssr}`,`${ssr}.begin(9600);`);
@@ -72,6 +72,6 @@ namespace GestureTouchSensor {
         let dis=parameter.DST.code;
         Generator.addSetup("GestureTouchSensorInitSetupDFGT",`DFGT.setGestureDistance(${dis});`,true);
 
-    }
+     }
 
 }
