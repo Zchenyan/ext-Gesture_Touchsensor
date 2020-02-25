@@ -1,5 +1,6 @@
 //% color="#6495ED" iconWidth=50 iconHeight=40
 namespace GestureTouchSensor {
+    //% board="arduino"
     //% block="GestureTouchSensor init [SSR] pin RX [RX] TX [TX]" blockType="command"
     //% SSR.shadow="dropdown"   SSR.options="SSR"
     //% RX.shadow="dropdown"   RX.options="RX"
@@ -20,7 +21,7 @@ namespace GestureTouchSensor {
         Generator.addSetup("GestureTouchSensorInitSetupDFGT","DFGT.setGestureDistance(20);");
     }
 
-
+    //% board="esp32","arduino"
     //% block="GestureTouchSensor init [SR] pin RX [SRX] TX [STX]" blockType="command"
     //% SR.shadow="dropdown"   SR.options="SR"
     //% SRX.shadow="dropdown"   SRX.options="SRX"
